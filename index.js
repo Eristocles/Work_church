@@ -29,10 +29,6 @@ app.get("/contact", function(req, res) {
   res.render("contact");
 });
 
-app.post("/", function(req, res){
-  console.log(req.body);
-});
-
 app.get("/sermon", function(req, res) {
   res.render("sermon");
 });
@@ -60,6 +56,14 @@ app.get("/churchservices2", function(req, res){
 app.get("/churchservices3", function(req, res){
   res.render("churchservices3")
 })
+
+app.get("/register", function(req, res){
+  res.render("register")
+})
+
+app.post("/", function(req, res){
+  console.log(req.body);
+});
 
 
 app.listen(3000, function() {

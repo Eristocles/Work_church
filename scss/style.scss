@@ -84,7 +84,7 @@ header {
 			&.active {
 				> a {
 					color: $primary!important;
-					font-weight: bold;	
+					font-weight: bold;
 				}
 			}
 		}
@@ -128,7 +128,7 @@ header {
 				height: 0;
 				width: 0;
 				position: absolute;
-				pointer-events: none;				
+				pointer-events: none;
 				border-bottom-color: #fff;
 				border-width: 10px;
 				@include media-breakpoint-down(lg) {
@@ -139,7 +139,7 @@ header {
 			.dropdown-item {
 				&:hover {
 					background: theme-color('primary');
-					color: $white;	
+					color: $white;
 				}
 				&.active {
 					background: theme-color('primary');
@@ -187,9 +187,9 @@ header {
 	}
 	.block-17 {
 		h1 {
-			font-size: 40px;	
+			font-size: 40px;
 			@include media-breakpoint-up(md) {
-				font-size: 70px;	
+				font-size: 70px;
 			}
 		}
 	}
@@ -234,7 +234,7 @@ header {
 			position: absolute;
 			top: 0; left: 0; right: 0; bottom: 0;
 		}
-		
+
 	}
 	.site-hero-inner {
 		min-height: 750px;
@@ -325,11 +325,11 @@ header {
 	// @include make-row();
 	@include media-breakpoint-up(sm) {
 		@include make-container();
-	}	
+	}
 	.inner {
 		@include media-breakpoint-up(sm) {
 			@include make-row();
-		}	
+		}
 	}
 	.feature, .instructor {
 		@include make-col-ready();
@@ -349,7 +349,7 @@ header {
 			border-right: 1px solid rgba($white, .1);
 		}
 
-		
+
 		h3 {
 			font-size: 18px;
 			color: $white;
@@ -372,7 +372,7 @@ header {
 				}
 			}
 		}
-		
+
 	}
 	&.text-dark {
 		&.last {
@@ -382,7 +382,7 @@ header {
 			}
 		}
 		.feature {
-			
+
 			@include media-breakpoint-up(lg) {
 				border-right: 1px solid lighten(#ccc, 10%);
 				border-bottom: 1px solid lighten(#ccc, 10%);
@@ -410,7 +410,7 @@ header {
 					}
 				}
 			}
-			
+
 		}
 	}
 }
@@ -431,9 +431,9 @@ header {
 	// background-repeat: no-repeat;
 	position: relative;
 	background-position: top left;
-	
+
 	&, .intro {
-		height: 500px;	
+		height: 500px;
 	}
 	p {
 		color: $white;
@@ -515,12 +515,12 @@ textarea.form-control {
 		background: none;
 		&:hover, &:focus, &:active {
 			border: 2px solid transparent;
-			background: $primary!important;	
+			background: $primary!important;
 		}
 	}
 }
 
-// Flaticon 
+// Flaticon
 .flaticon-custom {
 	font-size: 70px;
 	&:before, &:after {
@@ -529,7 +529,7 @@ textarea.form-control {
 }
 
 
-// Owl Carousel 
+// Owl Carousel
 .no-nav {
 	.owl-nav {
 		display: none;
@@ -563,8 +563,8 @@ textarea.form-control {
 		transition: .3s all ease;
 	}
 	&.hover {
-		
-		
+
+
 		&:hover, &:focus {
 			img {
 				margin-top: -20px;
@@ -582,7 +582,7 @@ textarea.form-control {
 	}
 }
 
-// Breadcrumbs 
+// Breadcrumbs
 .breadcrumb-custom {
 	background: none;
 	padding: 0;
@@ -597,7 +597,7 @@ textarea.form-control {
 			color: $white;
 		}
 
-		
+
 		&.breadcrumb-item+.breadcrumb-item:before {
 			content: "/";
 			color: rgba(255,255,255,.3);
@@ -620,9 +620,9 @@ textarea.form-control {
 	padding: 25px;
 	font-size: 15px;
 	width: 100%;
-	
+
 	float: left;
-	
+
 	background: $white;
 	*:last-child {
 		margin-bottom: 0;
@@ -801,9 +801,9 @@ textarea.form-control {
 		}
 		.card-body {
 			padding-top: 15px;
-		}	
+		}
 	}
-	
+
 }
 
 .testimonial {
@@ -922,7 +922,7 @@ blockquote {
 			&:before {
 				color: color('cyan');
 				left: 0;
-				font-family: "Ionicons"; 
+				font-family: "Ionicons";
 				content: "\f122";
 				position: absolute;
 			}
@@ -945,7 +945,7 @@ blockquote {
 
 .overflow {
 	position: relative;
-	overflow-x: hidden; 
+	overflow-x: hidden;
 }
 
 // Footer
@@ -964,7 +964,7 @@ blockquote {
 		text-transform: uppercase;
 		color: $white;
 	}
-	&.border-top { 
+	&.border-top {
 		border-top: 1px solid lighten($black, 90%)!important;
 
 	}
@@ -1067,7 +1067,7 @@ blockquote {
 	.heading {
 		max-width: 400px;
 		margin-bottom: 20px;
-		h2 { 
+		h2 {
 			font-size: 45px;
 			margin: 0;
 			padding: 0;
@@ -1290,7 +1290,7 @@ blockquote {
 			}
 		}
 	}
-} 
+}
 
 
 //### .block-21
@@ -1507,8 +1507,8 @@ blockquote {
 
 	-ms-transform: perspective(1000px);
 	-moz-transform: perspective(1000px);
-	-moz-transform-style: preserve-3d; 
-	-ms-transform-style: preserve-3d; 
+	-moz-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
 
 
 	&:hover .back, &.hover .back {
@@ -1524,7 +1524,7 @@ blockquote {
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
 	}
-	
+
 
 	&, .front, .back {
 		width: 100%;
@@ -1634,7 +1634,7 @@ blockquote {
 	    transform: rotateY(-180deg);
 	}
 
-	
+
 	.back p {
 		position: absolute;
 		top: 40px;
@@ -1689,7 +1689,7 @@ blockquote {
 			list-style: none;
 		}
 		li {
-			
+
 			&, > a {
 				display: table;
 				line-height: 1.5;
@@ -1707,7 +1707,7 @@ blockquote {
 				top: -2px;
 				color: #ccc;
 			}
-			
+
 		}
 	}
 }
@@ -1888,7 +1888,7 @@ blockquote {
 		padding: 10% 7%;
 		@include media-breakpoint-up(md) {
 			width: 50%;
-			padding: 10% 7%;	
+			padding: 10% 7%;
 		}
 	}
 	.text {
@@ -1970,7 +1970,7 @@ blockquote {
 	@include media-breakpoint-up(md) {
 		padding: 50px;
 	}
-	
+
 }
 
 
@@ -2012,14 +2012,14 @@ blockquote {
 
 						content: "\f123";
 						font-size: 12px;
-						color: #ccc;	
-						
+						color: #ccc;
+
 						position: absolute;
-				
+
 						transition: .3s all ease;
 					}
 				}
-				
+
 			}
 		}
 		.body-text {
@@ -2091,7 +2091,7 @@ blockquote {
 				&:hover, &:focus {
 					color: $white;
 				}
-			}	
+			}
 		}
 	}
 	.prev {
@@ -2104,7 +2104,7 @@ blockquote {
 
 
 .block-42 {
-	
+
 	border-top: 2px solid $primary;
 	// border-bottom: 1px solid lighten($black, 90%);
 	background: $white;
@@ -2256,7 +2256,7 @@ blockquote {
 		li {
 			display: inline-block;
 			margin-right: 20px;
-			
+
 		}
 	}
 	.block-45-icons {
@@ -2306,7 +2306,7 @@ blockquote {
 			}
 		}
 	}
-} 
+}
 
 // loader
 
@@ -2320,7 +2320,7 @@ blockquote {
 	background-color: rgba(255,255,255,0.9);
 	box-shadow: 0px 24px 64px rgba(0,0,0,0.24);
 	border-radius:16px;
-	opacity: 0; 
+	opacity: 0;
 	visibility: hidden;
 	transition: opacity .2s ease-out, visibility 0s linear .2s;
 	z-index:1000;
